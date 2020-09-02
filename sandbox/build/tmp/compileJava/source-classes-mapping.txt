@@ -1,2 +1,4 @@
-MyFirstProgram.java
- MyFirstProgram
+ru/sandbox/Point.java
+ ru.sandbox.Point
+ru/sandbox/MyFirstProgram.java
+ ru.sandbox.MyFirstProgram
