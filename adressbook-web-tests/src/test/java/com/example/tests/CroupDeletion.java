@@ -9,10 +9,14 @@ public class CroupDeletion extends TestBase {
     public void testCroupDeletion() throws Exception {
 
         app.goToPageGroup();
-        app.driver.findElement(By.name("selected[]")).click();
-        app.driver.findElement(By.name("delete")).click();
-        app.returnGroupPage();
+        app.getGroupHelper().SelectedGroupe();
+        app.getGroupHelper().DeletedGroupe();
+        app.getGroupHelper().returnGroupPage();
     }
+
+
+
+
 }
 
 
